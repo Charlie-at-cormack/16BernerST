@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scroll Animation Hero</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-left">
+                <a href="#" class="nav-link">Local Area</a>
+                <a href="#" class="nav-link">The Building</a>
+            </div>
+            <div class="nav-logo" id="navLogo">
+                <span class="logo-text">16</span>
+            </div>
+            <div class="nav-right">
+                <a href="#" class="nav-link">Positive Impact</a>
+                <a href="#" class="nav-link">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="hero">
+        <div class="hero-bg" id="heroBg"></div>
+        <div class="hero-overlay" id="heroOverlay">
+            <img src="448ca29736679e834673b06439e1779bea2a62ee.jpg" alt="Overlay Image" class="overlay-image">
+        </div>
+
+        <!-- Hero Center Content -->
+        <div class="hero-content" id="heroContent">
+            <h1 class="hero-title">
+                <span class="title-number" id="titleNumber">16</span>
+                <span class="title-text" id="titleText">Berners Street</span>
+            </h1>
+            <p class="hero-subtitle">Fitzrovia W1</p>
+            <div class="hero-details">
+                <p>35,000 sq ft redevelopment</p>
+                <p>7,000 sq ft retail accommodation</p>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <img src="scroller.svg" alt="Scroll down" class="scroll-icon">
+        </div>
+    </section>
+
+    <!-- Spacer to enable scrolling -->
+    <div class="hero-spacer" id="heroSpacer"></div>
+
+    <!-- Additional content for scrolling -->
+    <section class="content-section">
+        <div class="content-container">
+            <h2>Next Section</h2>
+            <p>Your content continues here...</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
